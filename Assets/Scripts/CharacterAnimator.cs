@@ -9,11 +9,18 @@ public class CharacterAnimator : MonoBehaviour
 
     protected NavMeshAgent agent;
     protected Animator animator;
+    CharacterCombat combat;
 
     protected virtual void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponentInChildren<Animator>();
+
+        combat = GetComponent<CharacterCombat>();
+        if (combat != null)
+        {
+            combat.OnAttack += OnAttack;
+        }
     }
 
     protected virtual void Update()
@@ -27,6 +34,8 @@ public class CharacterAnimator : MonoBehaviour
     protected virtual void OnAttack()
     {
         if (animator != null)
+        {
             animator.SetTrigger("Attack");
+        }
     }
 }

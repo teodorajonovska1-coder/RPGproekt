@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -17,4 +18,4 @@ MonoBehaviour:
   equipSlot: 2
   armorModifier: 3
   damageModifier: 0
-  prefab: {fileID: 137952689360511630, guid: d0d30a8753c2547f0975df6fab9fbfce, type: 2}
+  prefab: {fileID: 3161208270285514220, guid: 490050e8f6f010849870c16676fcb51b, type: 3}

@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Shield
   icon: {fileID: 21300000, guid: 18e814e5172ef4f7c94dcade1d2cdc72, type: 3}
+  showInInventory: 1
   equipSlot: 4
   armorModifier: 5
   damageModifier: 0
-  prefab: {fileID: 137278608935997304, guid: 437d363207bc6444cbe44ea3b10c1f16, type: 2}
+  prefab: {fileID: 4314019615070350333, guid: 10b2720e1674aea4f8d5788d4bcb7ea0, type: 3}
